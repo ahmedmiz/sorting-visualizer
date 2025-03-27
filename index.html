@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sorting visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <p>choose size</p>
+            <input type="range" min="4" max="150" step="5" class="sizeRange">
+            <p class="sizeValue">size is 0</p>
+        </div>
+        <button class="quickSort">Quick Sort</button>
+        <button class="heapSort">Heap Sort</button>
+        <button class="bubbleSort">Bubble Sort</button>
+
+        <div>
+            <p>choose speed</p>
+            <input type="range" min="1" max="4" step="1" class="speedRange">
+        </div>
+    </header>
+    <div class="grid">
+    </div>
+
+
+    <script src="js.js"></script>
+</body>
+
+</html>
